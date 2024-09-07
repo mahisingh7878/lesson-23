@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>activitya 3</title>
+
+</head>
+
+<body>
+    <h3>call stack </h3>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    <script>
+        function add(a,b) {
+            return a+b;
+        }
+        function avg(a,b){
+            return add(a,b)/5;
+
+        }
+        let result=avg(24,67);
+        document.getElementById("p1").innerHTML="average of number ";
+        document.getElementById("p2").innerHTML=result;
+        </script>
+        </body>
+</html>
